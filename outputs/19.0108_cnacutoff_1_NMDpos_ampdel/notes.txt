@@ -1,0 +1,10 @@
+Goal was to generate the amp/del figures (bar plot)
+
+ran nmd_compr.R with the following parameters:
+NMD_genes <- c('SMG1', 'SMG5', 'SMG6', 'SMG7', 'UPF1', 'UPF2', 'UPF3B') #positive regulators
+cna_cutoff <- 1 #the CNA cut-off; using CNA files with reported values as +/-2, +/-1, and 0
+qval_cutoff <- 0.05
+rm.gainlossboth <- TRUE #remove patients with both gain and loss of function of the NMD genes
+cancertypes <- c('BLCA','BRCA','CESC','COADREAD','GBMLGG','HNSC','KIPAN',
+                 'LUAD','LUSC','OV','PRAD','SKCM','STAD','THCA','UCEC')
+

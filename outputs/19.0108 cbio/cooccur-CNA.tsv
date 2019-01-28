@@ -1,0 +1,6 @@
+A	B	Neither	A Not B	B Not A	Both	Log Odds Ratio	p-Value	Adjusted p-Value	Tendency
+SMG5	SMG7	10543	184	86	154	>3	<0.001	<0.001	Co-occurrence
+SMG5	UPF2	10507	321	122	17	1.518	<0.001	<0.001	Co-occurrence
+SMG1	SMG5	10548	81	327	11	1.477	<0.001	0.002	Co-occurrence
+SMG5	UPF1	10526	327	103	11	1.235	<0.001	0.016	Co-occurrence
+SMG7	UPF2	10598	230	129	10	1.273	<0.001	0.020	Co-occurrence
