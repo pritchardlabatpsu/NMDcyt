@@ -1,0 +1,19 @@
+nodeName	formalName
+bcr_patient_barcode	tcga_participant_barcode
+=floor(-as.numeric(days_to_birth)/365.2422)	years_to_birth
+=ifelse( vital_status  %in% "dead" ,1, 0)	vital_status
+days_to_death	days_to_death
+days_to_last_followup	days_to_last_followup
+days_to_submitted_specimen_dx	days_to_submitted_specimen_dx
+pathologic_stage	pathologic_stage
+pathologic_t	pathology_T_stage
+pathologic_n	pathology_N_stage
+pathologic_m	pathology_M_stage
+melanoma_ulceration_indicator	melanoma_ulceration
+primary_neoplasm_melanoma_dx	melanoma_primary_known
+breslow_depth_value	Breslow_thickness
+gender	gender
+=ifelse(days_to_initial_pathologic_diagnosis != 0, days_to_initial_pathologic_diagnosis, year_of_initial_pathologic_diagnosis)	date_of_initial_pathologic_diagnosis
+radiation_therapy	radiation_therapy
+race	race
+ethnicity	ethnicity
