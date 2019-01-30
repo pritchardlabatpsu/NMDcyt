@@ -29,7 +29,8 @@ File descriptions in ./outputs
 18.1212_survival: survival analyses. Parsed .rda files from 18.0604 were copied over to this folder, and survival analyses were then run
 19.0108 cbio: genetic alterations of NMD and other pathways, results from cBioPortal
 19.0108_cnacutoff_1_NMDpos_ampdel: cnv of genes in the NMD pathway across indications
-19.0110_cnacutoff_1_NMDpos: association of NMD genes with NMD metrics
-19.0110_cnacutoff_1_NMDpos_CooccurCyt: association of NMD genetic alterations and cytolytic activity
+19.0110_cnacutoff_1_NMDpos: association of NMD genes (any alterations) with NMD metrics, this is used for the subsequent analyses below
+19.0110_cnacutoff_1_NMDpos_CooccurCyt: association of NMD co-alterations and cytolytic activity
 19.0110_cnacutoff_1_NMDpos_CooccurVs1variantVsCtrl: trend analyses of NMD genetic alterations and NMD metrics
+19.0110_cnacutoff_1_NMDpos_CooccurVsCtrl: association of NMD genes (co-alterations) with NMD metrics
 
