@@ -249,8 +249,12 @@ df.mutampN <- df.NMD.any.all %>% group_by(patientid) %>% mutate(n=n()) %>% selec
 #------- analyses --------
 df.NMD.mutlossamp <- unique(rbind(df.NMD.lof, df.NMD.amp))
 
-#more than 0 variants
-toAnalyze <- list(NMD.amp=df.NMD.amp) #NMD with gain of function only
+#any alterations
+toAnalyze <- list(NMD.any=df.NMD.any) #NMD with any alterations
+
+#co-alterations
+# toAnalyze <- list(NMD.amp=df.NMD.amp[df.NMD.amp$patientid %in% df.mutampN[df.mutampN$n>1,'patientid'],], #NMD with co-amp
+#                   NMD.any.cooccur=df.NMD.any[df.NMD.any$patientid %in% df.mutampN[df.mutampN$n>1,'patientid'],]) #NMD with co-alt
 
 NMD.ref.name <- 'NMD_ctrl'
 df.NMD.ref <- df.NMD.ctrl #reference dataset to be used for the comparison, e.g. background control
