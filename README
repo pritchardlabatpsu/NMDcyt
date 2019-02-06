@@ -1,5 +1,5 @@
 ***************************
-Evolution of the nonsense mediated decay (NMD) pathway is associated with decreased cytolytic immune infiltration.
+Evolution of the nonsense mediated decay pathway is associated with decreased cytolytic immune infiltration.
 Authors: Boyang Zhao and Justin Pritchard
 ***************************
 
@@ -10,7 +10,7 @@ pub_analyze_indv.R: individual ad-hoc analyses
 pub_analyze_mod.R: additional analyses of the random forest model results
 pub_analyze_pan.R: aggregate pan-cancer analyses
 pub_nmd_compr.R: NMD alterations analyses, association with NMD metrics
-pub_nmd_cmopr_triple.R: NMD alterations analyses, broken to compare none, 1, or >1 variants
+pub_nmd_compr_triple.R: NMD alterations analyses, broken to compare none, 1, or >1 variants
 pub_nmd_compr_cyt.R: NMD alterations analyses, association with cytolytic activity
 pub_utils_surv.R: survival methods used for analyses
 pub_utils.R: methods used for analyses
