@@ -1055,7 +1055,7 @@ retrieve.dsets <- function(cancertype, dirout=dir.out, reanalyze=FALSE){
   exprWT.med$median[exprWT.med$genes %in% genes.exclude] <- NA
   
   #NMD efficiency, for each individual gene
-  #NMD eff = 0:no decay (not efficient); 1:half decayed. Higher val, moree NMD efficient
+  #NMD eff = 0:no decay (not efficient); 1:half decayed. Higher val, more NMD efficient
   exprNs.NMD <- -log2( exprNs[,-1] / exprWT.med$median ) #NMD efficiency -log2(expr nonsense / median expr WT)
   exprFs.NMD <- -log2( exprFs[,-1] / exprWT.med$median ) #NMD efficiency -log2(expr frameshift / median expr WT)
   exprPTC.NMD <- -log2( exprPTC[,-1] / exprWT.med$median ) #NMD efficiency -log2(expr PTC / median expr WT)
