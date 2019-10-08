@@ -5,15 +5,19 @@ Authors: Boyang Zhao and Justin Pritchard
 
 ***************************
 File descriptions in ./src
-pub_analyze.R: random forest model building and analyses
-pub_analyze_indv.R: individual ad-hoc analyses
-pub_analyze_mod.R: additional analyses of the random forest model results
-pub_analyze_pan.R: aggregate pan-cancer analyses
-pub_nmd_compr.R: NMD alterations analyses, association with NMD metrics
-pub_nmd_compr_triple.R: NMD alterations analyses, broken to compare none, 1, or >1 variants
-pub_nmd_compr_cyt.R: NMD alterations analyses, association with cytolytic activity
-pub_utils_surv.R: survival methods used for analyses
-pub_utils.R: methods used for analyses
+analyze.R: random forest model building and analyses
+analyze_indv.R: individual ad-hoc analyses
+analyze_mod.R: additional analyses of the random forest model results
+analyze_pan.R: aggregate pan-cancer analyses
+analyze_nullmodel.R: random forest null model building
+analyze_nullmodel_results.R: analyze null model results
+analyze_indv_globalNMD.R: individual ad-hoc analyses, for global NMD
+analyze_indv_survivalSKCM.R: individual ad-hoc analyses, for SKCM survival
+nmd_compr.R: NMD alterations analyses, association with NMD metrics
+nmd_compr_triple.R: NMD alterations analyses, broken to compare none, 1, or >1 variants
+nmd_compr_cyt.R: NMD alterations analyses, association with cytolytic activity
+utils_surv.R: survival methods used for analyses
+utils.R: methods used for analyses
 
 ***************************
 File descriptions in ./datasets
