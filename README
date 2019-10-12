@@ -37,4 +37,6 @@ File descriptions in ./outputs
 19.0110_cnacutoff_1_NMDpos_CooccurCyt: association of NMD co-alterations and cytolytic activity
 19.0110_cnacutoff_1_NMDpos_CooccurVs1variantVsCtrl: trend analyses of NMD genetic alterations and NMD metrics
 19.0110_cnacutoff_1_NMDpos_CooccurVsCtrl: association of NMD genes (co-alterations) with NMD metrics
-
+19.0817_nullmodel: results from null model (randomized inputs)
+19.0819_cox: residual results from Cox regression models
+19.0820_NMDglobal: generate visualizations for NMD global differences plots
